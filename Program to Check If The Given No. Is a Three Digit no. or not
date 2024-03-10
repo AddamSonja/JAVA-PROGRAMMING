@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class threedigitno{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a three digit number:");
+        int num=sc.nextInt();
+        
+        if (num>=100 && num<=999) {
+            System.out.println("The given no is a three digit no." );
+        } else {
+            System.out.println("The given no is not a three digit no.");  
+        }
+    }
+}
